@@ -91,26 +91,24 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 }
 
 button {
-    background: linear-gradient(189deg, rgba(15,35,242,0.2) 24%, rgba(17,220,150,0.2) 75%);
+    background: transparent;
     border: 1px solid #f0f0f0;
     border-radius: 25px;
     height: 48px;
     width: 327px;
     font-weight: 700;
     font-size: 1rem;
-    color: #fff;
+    color: #000;
     margin: 24px 0px 24px;
     cursor: pointer;
 }
 
 button:hover {
     opacity: 0.8;
-    background:linear-gradient(189deg, rgba(15,35,242,.5) 24%, rgba(17,220,150,0.5) 75%); ;
 }
 
 button:active {
     opacity: 0.7;
-    background:linear-gradient(189deg, rgba(15,35,242,1) 24%, rgba(17,220,150,1) 75%); ;
 }
 
 section{

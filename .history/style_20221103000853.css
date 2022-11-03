@@ -110,7 +110,6 @@ button:hover {
 
 button:active {
     opacity: 0.7;
-    background:linear-gradient(189deg, rgba(15,35,242,1) 24%, rgba(17,220,150,1) 75%); ;
 }
 
 section{

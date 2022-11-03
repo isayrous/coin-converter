@@ -21,14 +21,12 @@ body{
     height: 100%;
     width: 375px;
     background: transparent;
-    border: 1px solid #f0f0f0;
+    border: 1px solid #fff;
     backdrop-filter: blur(15px);
-    border-radius: 10px;
 }
 
 header {
     background-color: #1b83e2;
-    border-radius: 10px 10px 0 0;
     height: 66px;
     display: flex;
     justify-content: center;
@@ -85,37 +83,30 @@ input{
 
 }
 
-input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
 button {
-    background: linear-gradient(189deg, rgba(15,35,242,0.2) 24%, rgba(17,220,150,0.2) 75%);
-    border: 1px solid #f0f0f0;
+    background: #1B83E2;
     border-radius: 25px;
     height: 48px;
     width: 327px;
     font-weight: 700;
-    font-size: 1rem;
-    color: #fff;
+    font-size: 16px;
+    color: #F4F4F4;
     margin: 24px 0px 24px;
+    border: none;
     cursor: pointer;
 }
 
 button:hover {
     opacity: 0.8;
-    background:linear-gradient(189deg, rgba(15,35,242,.5) 24%, rgba(17,220,150,0.5) 75%); ;
 }
 
 button:active {
     opacity: 0.7;
-    background:linear-gradient(189deg, rgba(15,35,242,1) 24%, rgba(17,220,150,1) 75%); ;
 }
 
 section{
-    border: 1px solid #f0f0f0;
-    border-radius: 10px;
+    border: 1px solid #1B83E2;
+    border-radius: 4px;
     padding-top: 10px;
     display: flex;
     flex-direction: column;
@@ -126,11 +117,11 @@ section{
 p {
     font-weight: 400;
     font-size: 14px;
-    color: #f0f0f0;
+    color: #777777;
 }
 
 .value {
-    color: #f0f0f0;
+    color: #1B83E2;
     font-weight: 700;
     font-size: 20px;
     margin-bottom: 15px;
