@@ -6,11 +6,12 @@
     font-style: normal;
     font-weight: normal;
     line-height: 18px;
+    overflow: hidden;
 }
 
 body{
     background: linear-gradient(189deg, rgba(15,35,242,1) 24%, rgba(17,220,150,1) 75%);
-    width: 100%;
+    width: 100vw;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -18,7 +19,7 @@ body{
 }
 
 .container {
-    height: 100%;
+    height: 90%;
     width: 375px;
     background-color: #F4F4F4;
 }
