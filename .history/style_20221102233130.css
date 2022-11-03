@@ -136,44 +136,4 @@ input::placeholder{color: #777777;
         width: 100%;
         background-color: #F4F4F4;
     }
-
-    header {
-        height: 50px;
-    }
-    
-    h1 {
-        font-size: 20px;
-    }
-    
-    main {
-        padding: 4%;
-    }
-    
-    label{
-        font-size: 0.8rem;
-    }
-    
-    select{
-        font-size: 1rem;
-        color: #555555;
-        margin-bottom: 10px;
-    }
-    
-    input{
-        font-size: 1rem;
-    }
-    
-    button {
-        font-size: 1rem;
-    }
-    
-    p {
-        font-weight: 700;
-        font-size: 0.8rem;
-        color: #777777;
-    }
-    
-    .value {
-        font-size: 1rem;
-    }   
 }

@@ -166,14 +166,25 @@ input::placeholder{color: #777777;
     button {
         font-size: 1rem;
     }
+
+    section{
+        padding-top: 10px;
+    }
     
     p {
-        font-weight: 700;
-        font-size: 0.8rem;
+        font-weight: 400;
+        font-size: 14px;
         color: #777777;
     }
     
     .value {
-        font-size: 1rem;
-    }   
+        color: #1B83E2;
+        font-weight: 700;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    
+    input::placeholder{color: #777777;
+        font-weight: 100;}
+    
 }
